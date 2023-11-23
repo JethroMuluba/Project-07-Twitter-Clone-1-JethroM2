@@ -1,5 +1,10 @@
-import tweetAvatar from '../images/tweet-profile-photo.png'
-import iconVerified from '../Icons/Verified.png'
+import tweetAvatar from '../images/tweet-profile-photo.png';
+import iconVerified from '../Icons/Verified.png';
+import TweetAction from './TweetAction';
+import replyIcon from '../Icons/Reply.png';
+import retweetIcon from '../Icons/Retweet.png';
+import reactIcon from '../Icons/React.png';
+import shareIcon from '../Icons/Share.png';
 
 function Tweet ({titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText }) {
     return(
@@ -19,6 +24,10 @@ function Tweet ({titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText
 
                 </div>
                 <div className='tweet-actions'>
+                    <TweetAction iconAction={replyIcon} counterAction={'57'}/>
+                    <TweetAction iconAction={retweetIcon} counterAction={'144'}/>
+                    <TweetAction iconAction={reactIcon} counterAction={'184'}/>
+                    <TweetAction iconAction={shareIcon} />
 
                 </div>
 
