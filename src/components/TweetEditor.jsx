@@ -4,6 +4,7 @@ import iconAction2 from '../Icons/Gif.png'
 import iconAction3 from '../Icons/Poll.png'
 import iconAction4 from '../Icons/Emoji.png'
 import iconAction5 from '../Icons/Schedule.png'
+import jethroProfil from '../images/Jethro-Profil.png'
 
 
 
@@ -13,7 +14,7 @@ function TweetEditor () {
     return(
         <div className="tweet-editor">
             <a href="#" className='avatar'>
-                <img src= {avatar} alt="User profil Avatar"/>
+                <img src= {jethroProfil} alt="User profil Avatar"/>
             </a>
             <div className='tweet-editor-form'>
             <input type="text" placeholder=" What's happening? " className='tweet-editor-input'/>

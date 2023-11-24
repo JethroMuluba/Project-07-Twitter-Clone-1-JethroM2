@@ -2,6 +2,7 @@ import Tweet from "./Tweet";
 import avatarCnn from '../images/tweet-profile-photo.png';
 import avatarTnyt from '../images/Tweet-Profile-Photo-2.png';
 import tweetImage from '../images/tweet-image.png'
+import jethroProfil from '../images/Jethro-Profil.png'
 
 
 function Tweets () {
