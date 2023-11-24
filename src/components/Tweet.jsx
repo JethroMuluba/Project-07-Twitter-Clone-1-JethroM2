@@ -6,7 +6,7 @@ import retweetIcon from '../Icons/Retweet.png';
 import reactIcon from '../Icons/React.png';
 import shareIcon from '../Icons/Share.png';
 
-function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText, tweetImage }) {
+function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText, tweetImage, tweetActionReply ,tweetActionRetweet, tweetActionReact  }) {
     return(
         <div className="tweet">
             <a href="#" className="tweet-avatar">
@@ -27,9 +27,9 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
                     <img src= {tweetImage}  />
                 </a>
                 <div className='tweet-actions'>
-                    <TweetAction iconAction={replyIcon} counterAction={'57'}/>
-                    <TweetAction iconAction={retweetIcon} counterAction={'144'}/>
-                    <TweetAction iconAction={reactIcon} counterAction={'184'}/>
+                    <TweetAction iconAction={replyIcon} counterAction={tweetActionReply}/>
+                    <TweetAction iconAction={retweetIcon} counterAction={tweetActionRetweet}/>
+                    <TweetAction iconAction={reactIcon} counterAction={tweetActionReact}/>
                     <TweetAction iconAction={shareIcon} />
 
                 </div>
