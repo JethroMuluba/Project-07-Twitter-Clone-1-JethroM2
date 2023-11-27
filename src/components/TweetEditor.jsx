@@ -20,21 +20,13 @@ function TweetEditor () {
             <input type="text" placeholder=" What's happening? " className='tweet-editor-input'/>
             <div className='tweet-editor-buttons'>
                 <article className='tweet-editor-actions'>
-                    <a href="#">
-                    <img src={iconAction1} alt="icon action" />
-                    </a>
-                    <a href="#">
-                    <img src={iconAction2} alt="icon action" />
-                    </a>
-                    <a href="#">
-                    <img src={iconAction3} alt="icon action" />
-                    </a>
-                    <a href="#">
-                    <img src={iconAction4} alt="icon action" />
-                    </a>
-                    <a href="#">
-                    <img src={iconAction5} alt="icon action" />
-                    </a>
+                    <button className='my-own-button'><img src= {iconAction1} alt="Icon Media" /></button>
+                    <button className='my-own-button'><img src= {iconAction2} alt="Icon Gif" /></button>
+                    <button className='my-own-button'><img src= {iconAction3} alt="Icon Poll" /></button>
+                    <button className='my-own-button'><img src= {iconAction4} alt="Icon Emoji" /></button>
+                    <button className='my-own-button'><img src= {iconAction5} alt="Icon Schedule" /></button>
+                
+            
                 </article>
                 <button type="button" className='button'>Tweet</button>
             </div>

@@ -196,3 +196,15 @@ body{
     justify-content: center;
     gap: 20px;
 }
+
+/* My own Css */
+
+.my-own-button {
+    background: none;
+    border: none;
+}
+
+.my-own-link-style {
+    text-decoration: none;
+    color: white;
+}
