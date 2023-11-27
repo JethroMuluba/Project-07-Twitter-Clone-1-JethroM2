@@ -15,8 +15,7 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
             <div className='tweet-content'>
                 <div className='tweet-body'>
                     <p className='tweet-title'>
-                        <span className='tweet-title-author'>{titleAuthor}</span>
-                        <img src={iconVerified} alt="Icon Verified" />
+                        <span className='tweet-title-author'> <a href="#" className='my-own-link-style' >{titleAuthor} <img src={iconVerified} alt="Icon Verified" /></a></span>                     
                         <span className='tweet-title-details'> {titleDetailAbbr} </span>
                         <span className='tweet-title-details'> {titleDetailHourAndDate} </span>
                     </p>
