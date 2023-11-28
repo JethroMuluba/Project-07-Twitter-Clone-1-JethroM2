@@ -202,7 +202,17 @@ body{
 .my-own-button {
     background: none;
     border: none;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
+    
 }
+
+.my-own-button:hover {
+    border-radius: 50px;
+    background-color: rgba(0, 149, 248, 0.277);
+    padding: 10px;
+
+}
+
 
 .my-own-link-style {
     text-decoration: none;
