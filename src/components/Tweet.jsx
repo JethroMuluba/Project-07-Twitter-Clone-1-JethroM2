@@ -2,9 +2,14 @@
 import iconVerified from '../Icons/Verified.png';
 import TweetAction from './TweetAction';
 import replyIcon from '../Icons/Reply.png';
+import replyIconColor from '../Icons/Reply-color.png';
 import retweetIcon from '../Icons/Retweet.png';
+import retweetIconColor from '../Icons/Retweet-color.png';
 import reactIcon from '../Icons/React.png';
+import reactIconColor from '../Icons/React-color.png';
 import shareIcon from '../Icons/Share.png';
+import shareIconColor from '../Icons/Share-color.png';
+
 
 function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText, tweetImage, tweetActionReply ,tweetActionRetweet, tweetActionReact  }) {
     return(
@@ -26,10 +31,10 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
                     <img src= {tweetImage}  />
                 </a>
                 <div className='tweet-actions'>
-                    <TweetAction iconAction={replyIcon} counterAction={tweetActionReply}/>
-                    <TweetAction iconAction={retweetIcon} counterAction={tweetActionRetweet}/>
-                    <TweetAction iconAction={reactIcon} counterAction={tweetActionReact}/>
-                    <TweetAction iconAction={shareIcon} />
+                    <TweetAction iconAction={replyIcon} swichIconAction={replyIconColor} counterAction={tweetActionReply}/>
+                    <TweetAction iconAction={retweetIcon} swichIconAction={retweetIconColor} counterAction={tweetActionRetweet}/>
+                    <TweetAction iconAction={reactIcon} swichIconAction={reactIconColor} counterAction={tweetActionReact}/>
+                    <TweetAction iconAction={shareIcon} swichIconAction={shareIconColor} />
 
                 </div>
 
