@@ -27,9 +27,11 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
                     <p className='tweet-text'> {tweetText} </p>
 
                 </div>
-                <a href="#" className='tweet-image'>
-                    <img src= {tweetImage}  />
-                </a>
+                    {tweetImage ? (
+                        <a href="#" className='tweet-image'>
+                            <img src={tweetImage} alt="Tweet Image" />
+                        </a>
+                    ) : null}
                 <div className='tweet-actions'>
                     <TweetAction iconAction={replyIcon} swichIconAction={replyIconColor} counterAction={tweetActionReply}/>
                     <TweetAction iconAction={retweetIcon} swichIconAction={retweetIconColor} counterAction={tweetActionRetweet}/>
