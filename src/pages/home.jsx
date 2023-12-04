@@ -7,7 +7,7 @@ import Tweet from '../components/Tweet';
 function Home() {
     return (
         <main className="timeline">
-            {/* <h1>Timeline here</h1> */}
+            
             <Header/>
             <TweetEditor/>
             <Tweets />
