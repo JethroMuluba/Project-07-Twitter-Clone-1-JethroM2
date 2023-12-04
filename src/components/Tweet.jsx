@@ -27,6 +27,7 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
                     <p className='tweet-text'> {tweetText} </p>
 
                 </div>
+                {/* The conditional render of Tweet Image */}
                     {tweetImage ? (
                         <a href="#" className='tweet-image'>
                             <img src={tweetImage} alt="Tweet Image" />
