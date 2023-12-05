@@ -1,7 +1,13 @@
+import NavigationsSidebar from "./NavigationsSidebar";
+import replyIconColor from "../Icons/Reply-color.png"
+
 function Sidebar() {
     return(
         <aside>
-            <h1>My Sidebar</h1>
+            <NavigationsSidebar 
+                switchLinkIcon= {replyIconColor}
+                linkName= {"Reply Icon Color"}  />
+                
         </aside>
     )
 }
