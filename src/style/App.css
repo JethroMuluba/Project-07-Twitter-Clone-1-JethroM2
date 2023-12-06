@@ -221,14 +221,17 @@ body{
     color: white;
 }
 
-.sidebar {
+.sidebar{
+    padding-top: 2rem;
+    width: 400px;
+    border-left: 1px solid #2F3336;
+}
+
+.sidebar-conteiner {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
-    width: 100px;
     font-family: 'Inter', sans-serif;
-    border-left: 1px solid #2F3336;
-
+    padding-bottom: 350px;
 }
 
 .Links-conteiner{
@@ -254,6 +257,40 @@ body{
     font-size: 1rem;
     margin: 0rem 0rem 0rem 4rem;
 }
+
+.profile-settings-conteiner{
+    display: flex;
+    gap: 25px;
+    margin: 0rem 0rem 0rem 4rem;
+}
+
+.avatar-profile-settings img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+.profile-settings-body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+
+.tweet-title-author-set{
+    font-size: 1.2rem;
+    font-weight: 50px ;
+
+}
+
+.tweet-title-details-set{
+    font-size: 1.2rem;
+    font-weight: 50px ;
+    color: #6E767D;
+    
+}
+
 
 
 

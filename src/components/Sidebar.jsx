@@ -9,6 +9,9 @@ import listIcon from "../Icons/Lists.png";
 import profileIcon from "../Icons/Profile.png";
 import moreIcon from "../Icons/More.png";
 import TweetButtonSidebar from "./TweetButtonSidebar";
+import ProfileSettings from "./ProfileSettings";
+import jethroProfile from "../images/Jethro-Profil.png";
+import privateIcon from "../Icons/Private.png";
 
 
 
@@ -66,9 +69,21 @@ function Sidebar() {
             iconName: moreIcon,
             name: "More",
         }
-    ]
+    ];
+
+    // const profileSettingsData = [
+    //     {
+    //         id: 1,
+    //         userAvatar: jethroProfile,
+    //         userTitle: "Jethro Muluba",
+    //         icon: privateIcon,
+    //         titleDetail: "@jethroMuluba",
+    //     },
+    // ]
+
     return(
         <aside className="sidebar">
+            <div className="sidebar-conteiner">
             {linksData.map((link) => (
                 <NavigationsSidebar
                 key={link.id}
@@ -76,7 +91,22 @@ function Sidebar() {
                 linkName={link.name}
                 />
             ))}
+
             <TweetButtonSidebar/>
+            </div>
+
+            {/* {profileSettingsData.map((profileSetting) => (
+                <ProfileSettings 
+                // key={profileSetting.id}
+                // tweetAvatar={profileSetting.userAvatar}
+                // titleAuthor={profileSetting.userTitle}
+                // iconVerified={profileSetting.icon}
+                // titleDetailAbbr={profileSetting.titleDetail}
+                />
+            ))} */}
+            <ProfileSettings/>
+
+            
         </aside>
     )
 }
