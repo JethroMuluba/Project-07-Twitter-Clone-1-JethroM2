@@ -67,7 +67,7 @@ function Sidebar() {
         }
     ]
     return(
-        <aside>
+        <aside className="sidebar">
             {linksData.map((link) => (
                 <NavigationsSidebar
                 key={link.id}

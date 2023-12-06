@@ -45,6 +45,8 @@ body{
     font-weight: bold;
 }
 
+
+
 .tweet-editor {
     display: flex;
     align-items: flex-start;
@@ -217,4 +219,27 @@ body{
 .my-own-link-style {
     text-decoration: none;
     color: white;
+}
+
+.sidebar-link-style {
+    
+    font-size: 1.2rem;
+    font-weight: 50px ;
+}
+
+.Links-conteiner{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    gap: 25px;
+    padding: 0rem 0rem 2rem 5rem;   
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 100px;
+    font-family: 'Inter', sans-serif;
+    border-left: 1px solid #2F3336;
+
 }
