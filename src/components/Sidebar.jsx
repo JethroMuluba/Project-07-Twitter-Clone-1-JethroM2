@@ -8,6 +8,7 @@ import bookmarkIcon from "../Icons/Bookmarks.png";
 import listIcon from "../Icons/Lists.png";
 import profileIcon from "../Icons/Profile.png";
 import moreIcon from "../Icons/More.png";
+import TweetButtonSidebar from "./TweetButtonSidebar";
 
 
 
@@ -75,6 +76,7 @@ function Sidebar() {
                 linkName={link.name}
                 />
             ))}
+            <TweetButtonSidebar/>
         </aside>
     )
 }
