@@ -12,7 +12,7 @@ body{
     width: 100%;
     display: flex;
     /* justify-content: space-between; */
-    gap: 50px;
+    gap: 30px;
 }
 
 .timeline {
@@ -297,28 +297,49 @@ body{
 }
 
 .trends {
-    flex: 0 0 3 0px;
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    gap: 15px;
+    height: 100%;
     padding-top: 2rem;
-    height: auto;
     border-right: 1px solid #2F3336;
-    color: #1D9BF0;
 } 
 
-.trends-search-bar-section
+/* .trends-search-bar-section
 {
-
-}
+    margin-bottom: ;
+} */
 .search-bar {
     text-transform: capitalize;
-    padding: 1rem 2rem;
+    padding: 1rem 6rem;
     border: none;
     border-radius: 50px;
     background-color: rgb(71, 68, 68);
     font-size: 1rem;
+    margin: 0px 30px 0px 0px;
 
 }
 .search-bar::placeholder{
     color: gray;
+}
+
+.trends-for-you-section{
+    background-color: rgb(71, 68, 68);
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    margin: 0px 30px 0px 0px;
+    
+}
+
+.trends-for-you-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 50px;
+    padding: 10px 25px 10px 10px;
 }
 
 
