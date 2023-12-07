@@ -11,7 +11,8 @@ body{
 #root{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 50px;
 }
 
 .timeline {
@@ -222,18 +223,20 @@ body{
 }
 
 .sidebar{
-    position: fixed;
+    flex: 0 0 300px;
+    position: sticky;
     padding-top: 2rem;
-    width: 400px;
-    height: auto;
+    top: 0;
+    height: 100%;
     border-left: 1px solid #2F3336;
+    
 }
 
 .sidebar-conteiner {
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
-    padding-bottom: 350px;
+    padding-bottom: 280px;
 }
 
 .Links-conteiner{
@@ -293,6 +296,30 @@ body{
     
 }
 
+.trends {
+    flex: 0 0 3 0px;
+    padding-top: 2rem;
+    height: auto;
+    border-right: 1px solid #2F3336;
+    color: #1D9BF0;
+} 
+
+.trends-search-bar-section
+{
+
+}
+.search-bar {
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(71, 68, 68);
+    font-size: 1rem;
+
+}
+.search-bar::placeholder{
+    color: gray;
+}
 
 
 
