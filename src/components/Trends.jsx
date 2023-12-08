@@ -3,6 +3,7 @@ import SettingsIcon from "../Icons/Settings.png";
 import TrendsDetails from './TrendsDetails';
 
 function Trends() {
+
     const trendsData = [
         {
             id: 1,
@@ -31,7 +32,10 @@ function Trends() {
             trendAbbr: "#SQUID",
             trendCounter: "2,066 Tweets",
         },
+
     ]
+
+
     return (
     <div className= 'trends'>
 
@@ -46,6 +50,7 @@ function Trends() {
                     <img src= {SettingsIcon} alt="settings icon" />
                 </button>
             </div>
+
             {trendsData.map((trend) => (
                 <TrendsDetails
                 key={trend.id}
@@ -54,7 +59,11 @@ function Trends() {
                 trendCounter={trend.trendCounter}
                 />
             ))}
+            <p className='see-more'><a href="#" className='link-style'>See more</a></p>
+
+
         </div>
+
     </div>
     )
 }

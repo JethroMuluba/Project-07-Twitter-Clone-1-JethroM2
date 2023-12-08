@@ -15,3 +15,16 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
+
+# Commit Labels :
+feat: une nouvelle fonctionnalité a été ajoutée
+fix: une erreur a été corrigée
+docs: des modifications ont été apportées à la documentation
+style: des modifications ont été apportées à la mise en forme ou à la présentation du code, sans modifier le sens du code
+refactor: le code a été modifié pour améliorer sa structure ou son organisation, sans modifier son comportement
+perf: des améliorations de performances ont été apportées
+test: des tests ont été ajoutés ou modifiés
+build: des modifications ont été apportées au processus de build ou de déploiement
+ci: des modifications ont été apportées au processus d'intégration ou de déploiement continu
+chore: des tâches de maintenance ou de configuration ont été effectuées, sans modifier le code source

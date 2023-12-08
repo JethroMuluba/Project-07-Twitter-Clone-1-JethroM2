@@ -223,7 +223,7 @@ body{
 }
 
 .sidebar{
-    flex: 0 0 300px;
+    flex: 0 0 400px;
     position: sticky;
     padding-top: 2rem;
     top: 0;
@@ -236,7 +236,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
-    padding-bottom: 280px;
+    padding-bottom: 395px;
 }
 
 .Links-conteiner{
@@ -354,7 +354,6 @@ body{
 
 .trendsDetails:hover {
     background-color: rgb(72, 69, 69);
-    border-radius: 0px 0px 10px 10px;
 }
 
 
@@ -370,5 +369,21 @@ body{
     font-weight: 50px;
 }
 
+.see-more {
+    font-size: 1.3rem;
+    font-weight: 50px;
+    color: #1D9BF0;
+    padding: 20px 0px 20px 10px;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
 
+.see-more:hover {
+    background-color: rgb(72, 69, 69);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #1D9BF0;
+}
 
