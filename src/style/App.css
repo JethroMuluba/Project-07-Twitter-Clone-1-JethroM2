@@ -327,19 +327,47 @@ body{
 }
 
 .trends-for-you-section{
-    background-color: rgb(71, 68, 68);
+    background-color: rgb(58, 56, 56);
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
     margin: 0px 30px 0px 0px;
     
 }
 
+
 .trends-for-you-title{
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 50px;
     padding: 10px 25px 10px 10px;
+}
+
+.trendsDetails{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 10px;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.trendsDetails:hover {
+    background-color: rgb(72, 69, 69);
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.trends-detail-title {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-weight: 50px;
+}
+
+.trends-detai-middle p {
+    font-size: 1.3rem;
+    font-weight: 50px;
 }
 
 
