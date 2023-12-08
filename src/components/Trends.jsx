@@ -1,7 +1,10 @@
 import React from 'react'
 import SettingsIcon from "../Icons/Settings.png";
 import TrendsDetails from './TrendsDetails';
-
+import avatarTnyt from '../images/Tweet-Profile-Photo-2.png';
+import avatarCnn from '../images/tweet-profile-photo.png';
+import tweeterAvatar from '../images/Tweeter-Profile-Photo.png'
+import WhoFollowTrends from './WhoFollowTrends';
 function Trends() {
 
     const trendsData = [
@@ -33,7 +36,31 @@ function Trends() {
             trendCounter: "2,066 Tweets",
         },
 
-    ]
+    ];
+
+    const followersData = [
+        {
+            id: 1,
+            avatarProfil: avatarTnyt,
+            titleAuthor : "The New York Times",
+            titleAuthorAbbr: "@nytimes",
+        },
+
+        {
+            id: 2,
+            avatarProfil: avatarCnn,
+            titleAuthor : "CNN",
+            titleAuthorAbbr: "@CNN",
+
+        },
+
+        {
+            id: 3,
+            avatarProfil: tweeterAvatar,
+            titleAuthor : "Tweeter",
+            titleAuthorAbbr: "@Tweeter",
+        },
+    ];
 
 
     return (
@@ -59,8 +86,31 @@ function Trends() {
                 trendCounter={trend.trendCounter}
                 />
             ))}
+
+
             <p className='see-more'><a href="#" className='link-style'>See more</a></p>
 
+
+        </div>
+
+        <div className='who-to-follow-section'>
+
+            <div className='trends-for-you-title'>
+                <p>Who to follow</p>
+            </div>
+            
+
+
+            {followersData.map((follower) => (
+                <WhoFollowTrends
+                key={follower.id}
+                avatarProfil={follower.avatarProfil}
+                titleAuthor={follower.titleAuthor}
+                titleAuthorAbbr={follower.titleAuthorAbbr}
+                />
+            ))}
+
+            <p className='see-more'><a href="#" className='link-style'>See more</a></p>
 
         </div>
 

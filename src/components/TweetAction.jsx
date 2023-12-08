@@ -1,5 +1,4 @@
 import { useState } from "react";
-import replyIconColor from "../Icons/Reply-color.png"
 
 function TweetAction ( {iconAction, counterAction, swichIconAction} ) {
     const [counter, setCounter] = useState( counterAction );
