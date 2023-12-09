@@ -8,7 +8,7 @@ function TrendsDetails( {trendTitle, trendAbbr, trendCounter} ) {
 
                     <div className='trends-detail-title'>
                         <p> {trendTitle}</p>
-                        <button className='my-own-button'>
+                        <button className='more-button'>
                             <img src= {moreIcon} alt="more icon" />
                         </button>
                     </div>

@@ -200,7 +200,7 @@ body{
     gap: 20px;
 }
 
-/* My own Css */
+/*========== My own Css========== */
 
 .my-own-button {
     background: none;
@@ -441,7 +441,8 @@ body{
     background-color: white;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    color: #000000;
+    border-color: none;
+    border: none;
     border-radius: 50px;
     padding: 0px 15px;
     margin: 10px 0px;
@@ -451,4 +452,17 @@ body{
 .navigation-button {
     background: none;
     border: none;
+
+}
+
+/* ======== Style of navigation button ========== */
+.more-button {
+    background: none;
+    border: none;
+}
+
+.more-button:hover {
+    background-color:  rgba(0, 149, 248, 0.277);
+    border-radius: 100px;
+    padding: 10px 10px;
 }
