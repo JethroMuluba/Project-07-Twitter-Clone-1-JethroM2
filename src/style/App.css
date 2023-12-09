@@ -398,11 +398,31 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    margin: 0px 10px 20px 10px;
+    padding: 10px 10px;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+.who-follow-conteiner:hover {
+    background-color: rgb(72, 69, 69);
 }
 
 .who-follow-content{
     display: flex;
     gap: 10px;
+    
+}
+
+.footer-section{
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0px 0px 5px;
+}
+
+.footer-section-on-line{
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #6E767D;
+    padding: 0px 0px 5px 0px;
+    
     
 }

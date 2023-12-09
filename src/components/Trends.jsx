@@ -5,6 +5,7 @@ import avatarTnyt from '../images/Tweet-Profile-Photo-2.png';
 import avatarCnn from '../images/tweet-profile-photo.png';
 import tweeterAvatar from '../images/Tweeter-Profile-Photo.png'
 import WhoFollowTrends from './WhoFollowTrends';
+import Footer from './Footer';
 function Trends() {
 
     const trendsData = [
@@ -113,6 +114,8 @@ function Trends() {
             <p className='see-more'><a href="#" className='link-style'>See more</a></p>
 
         </div>
+
+        <Footer/>
 
     </div>
     )
