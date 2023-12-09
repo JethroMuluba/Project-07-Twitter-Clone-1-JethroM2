@@ -1,7 +1,9 @@
 function NavigationsSidebar( {switchLinkIcon,linkName} ) {
     return(
-        <div className="Links-conteiner">
-        <button className='my-own-button' >
+
+    <div className="Links-conteiner">
+
+        <button className='navigation-button' >
             <img src= {switchLinkIcon}  alt="Link icon" />
         </button>
 
@@ -10,6 +12,9 @@ function NavigationsSidebar( {switchLinkIcon,linkName} ) {
         </span>
 
     </div>
+
+
+
     )
 }
 export default NavigationsSidebar;
