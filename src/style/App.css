@@ -305,6 +305,8 @@ body{
     
 }
 
+/* ======== Style of Trends ========== */
+
 .trends {
     flex: 0 0 400px;
     display: flex;
@@ -343,6 +345,7 @@ body{
     
 }
 
+/* ======== Style of trends details ========== */
 
 .trends-for-you-title{
     display: flex;
@@ -353,7 +356,6 @@ body{
 }
 
 .trendsDetails{
-    height: auto;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -459,6 +461,7 @@ body{
 .more-button {
     background: none;
     border: none;
+    transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 
 .more-button:hover {
