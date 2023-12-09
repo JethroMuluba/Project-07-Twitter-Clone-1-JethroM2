@@ -22,7 +22,7 @@ function WhoFollowTrends({avatarProfil, titleAuthor, titleAuthorAbbr}) {
         </div>
 
 
-        <button className='my-own-button'>
+        <button className='follow-button'>
             Follow
         </button>
 

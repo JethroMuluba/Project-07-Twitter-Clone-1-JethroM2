@@ -397,7 +397,7 @@ body{
 .who-follow-conteiner {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
     padding: 10px 10px;
     transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
@@ -425,4 +425,15 @@ body{
     padding: 0px 0px 5px 0px;
     
     
+}
+
+/* ======== Style of follow button ========== */
+.follow-button {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 50px;
+    padding: 0px 15px;
+    margin: 10px 0px;
 }
