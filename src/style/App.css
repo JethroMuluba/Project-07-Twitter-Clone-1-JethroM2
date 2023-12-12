@@ -222,6 +222,8 @@ body{
     color: white;
 }
 
+/*========== Style of Sidebar========== */
+
 .sidebar{
     flex: 0 0 400px;
     position: sticky;
@@ -251,7 +253,7 @@ body{
     transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 .Links-conteiner:hover {
-    background-color: rgb(72, 69, 69);
+    background-color:  rgb(71, 68, 68);
     border-radius: 50px;
 }
 
@@ -260,6 +262,8 @@ body{
     font-size: 1.2rem;
     font-weight: 50px ;
 }
+
+/*========== Style of Sidebar Button========== */
 
 .tweet-button-sidebar{
     text-transform: capitalize;
@@ -271,6 +275,9 @@ body{
     font-size: 1rem;
     margin: 0rem 0rem 0rem 0rem;
 }
+
+/*========== Style of Sidebar Profile Settings========== */
+
 
 .profile-settings-conteiner{
     display: flex;
@@ -308,7 +315,7 @@ body{
 /* ======== Style of Trends ========== */
 
 .trends {
-    flex: 0 0 400px;
+    flex: 0 0 430px;
     display: flex;
     flex-direction: column;
     position: sticky;
@@ -333,13 +340,15 @@ body{
     background-position: 10px center;
     background-color: rgb(71, 68, 68);
     font-size: 1rem;
-    padding: 1rem 7.2rem 1rem 3rem;
+    padding: 1rem 9rem 1rem 3rem;
     border-color: transparent;
     border-radius: 50px;
 }
 .search-bar::placeholder{
     color: gray;
 }
+
+/* ======== Style of trends for you section ========== */
 
 .trends-for-you-section{
     background-color: rgb(58, 56, 56);
@@ -402,6 +411,9 @@ body{
     color: #1D9BF0;
 }
 
+/* ======== Style of trends Who to follow section ========== */
+
+
 .who-to-follow-section {
     background-color: rgb(58, 56, 56);
     border-radius: 10px;
@@ -413,7 +425,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    padding: 10px 10px;
+    padding: 5px 10px;
     transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
 .who-follow-conteiner:hover {
@@ -425,6 +437,9 @@ body{
     gap: 10px;
     
 }
+
+
+/* ======== Style of Footer ========== */
 
 .footer-section{
     flex-direction: column;
@@ -443,6 +458,7 @@ body{
 }
 
 /* ======== Style of follow button ========== */
+
 .follow-button {
     background-color: white;
     font-family: 'Inter', sans-serif;

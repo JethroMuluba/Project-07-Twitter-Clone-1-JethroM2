@@ -25,15 +25,15 @@ function Tweets () {
         },
 
         {
-             id: 2,
-             tweetAvatar: avatarCnn,
-             titleAuthor: "CNN", 
-             titleDetailAbbr: "@CNN",
-             titleDetailHourAndDate: ". 7m",
-             tweetText: 'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.', 
-             tweetActionReply: 57, 
-             tweetActionRetweet: 144,
-             tweetActionReact: 184,
+            id: 2,
+            tweetAvatar: avatarCnn,
+            titleAuthor: "CNN", 
+            titleDetailAbbr: "@CNN",
+            titleDetailHourAndDate: ". 7m",
+            tweetText: 'President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a "major breakthrough" that would serve to both strengthen the US steel industry and combat the global climate crisis.', 
+            tweetActionReply: 57, 
+            tweetActionRetweet: 144,
+            tweetActionReact: 184,
         },
         
         {
@@ -90,20 +90,20 @@ function Tweets () {
 
     return(
 <div className="tweets">
-      {tweetsData.map((tweet) => (
+        {tweetsData.map((tweet) => (
         <Tweet
-          key={tweet.id}
-          tweetAvatar={tweet.tweetAvatar}
-          titleAuthor={tweet.titleAuthor}
-          titleDetailAbbr={tweet.titleDetailAbbr}
-          titleDetailHourAndDate={tweet.titleDetailHourAndDate}
-          tweetText={tweet.tweetText}
-          tweetImage={tweet.tweetImage}
-          tweetActionReply={tweet.tweetActionReply}
-          tweetActionRetweet={tweet.tweetActionRetweet}
-          tweetActionReact={tweet.tweetActionReact}
+            key={tweet.id}
+            tweetAvatar={tweet.tweetAvatar}
+            titleAuthor={tweet.titleAuthor}
+            titleDetailAbbr={tweet.titleDetailAbbr}
+            titleDetailHourAndDate={tweet.titleDetailHourAndDate}
+            tweetText={tweet.tweetText}
+            tweetImage={tweet.tweetImage}
+            tweetActionReply={tweet.tweetActionReply}
+            tweetActionRetweet={tweet.tweetActionRetweet}
+            tweetActionReact={tweet.tweetActionReact}
         />
-      ))}
+        ))}
     </div>
     )
 }
