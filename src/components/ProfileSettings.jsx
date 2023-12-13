@@ -4,7 +4,7 @@ import privateIcon from "../Icons/Private.png";
 import moreIcon from "../Icons/More-2.png";
 
 function ProfileSettings( {tweetAvatar, titleAuthor, iconVerified, titleDetailAbbr } ) {
-  return (
+    return (
     <div className='profile-settings-conteiner'>
         <a href="#" className="avatar-profile-settings">
                 <img src={jethroProfile} alt="User avatar" />
@@ -23,6 +23,6 @@ function ProfileSettings( {tweetAvatar, titleAuthor, iconVerified, titleDetailAb
         </button>
 
     </div>
-  )
+    )
 }
 export default ProfileSettings;

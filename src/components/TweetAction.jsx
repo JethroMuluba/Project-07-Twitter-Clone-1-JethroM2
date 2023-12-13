@@ -10,14 +10,14 @@ function TweetAction ( {iconAction, counterAction, swichIconAction} ) {
                 setCounter(counter + 1);
                 setActionType("decrement");
                 setSwitchIcon(swichIconAction)
-              } else {
+                } else {
                 setCounter(counter - 1);
                 setActionType("increment");
                 setSwitchIcon( iconAction )
-              }
-        }
-           
-     return(
+                }
+        }   
+
+    return(
         <div className="tweet-action">
             <button className='my-own-button' onClick={handleClick}>
                 <img src= {switchIcon}  alt="Action icon" />
@@ -25,7 +25,7 @@ function TweetAction ( {iconAction, counterAction, swichIconAction} ) {
             <p> {counter} </p>
 
         </div>
-     )
+        )
 
 }
 export default TweetAction;
