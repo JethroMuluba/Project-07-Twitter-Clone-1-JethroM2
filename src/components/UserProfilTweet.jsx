@@ -5,9 +5,9 @@ import IconMore from "../Icons/More.png"
 
 export default function UserProfilTweet() {
     return (
-    <div className=''>
+    <div className='user-profil-tweet-container'>
 
-        <img src= {coverImage} alt="User Cover" />
+        <img className='user-cover' src= {coverImage} alt="User Cover" />
 
         <div className='userProfilContainer'>
 

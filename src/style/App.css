@@ -520,9 +520,15 @@ position: relative;
     display: flex;
     justify-content: space-between;
     align-items: first baseline;
-    position: absolute;
-    top: 2950px;
+    /* position: absolute;
+    top: 2950px; */
     margin: 0px 20px;
+}
+
+/* ======== Style of User Cover ========== */
+.user-cover {
+    width: 100%;
+    height: 100%;
 }
 
 /* ======== Style of User Profil Cnn ========== */
@@ -547,4 +553,31 @@ position: relative;
 .iconMore {
     width: 50px;
     height: 50px;
+}
+
+/* ======== Style of User Profil Details ========== */
+.user-profil-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px 20px;
+
+}
+
+.user-text-purpos {
+    font-size: 20px;
+    /* margin: 20px 0px opx 0px; */
+}
+
+.user-elements {
+    display: flex;
+    gap: 20px;
+}
+
+.link-elements {
+    display: flex;
+    gap: 10px;
+}
+.link-elements div p {
+    font-size: 30px;
 }
