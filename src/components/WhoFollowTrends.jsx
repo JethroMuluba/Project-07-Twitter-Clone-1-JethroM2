@@ -6,9 +6,12 @@ function WhoFollowTrends({avatarProfil, titleAuthor, titleAuthorAbbr}) {
     <div className='who-follow-conteiner'>
 
         <div className='who-follow-content'>
-            <a href="#" className="avatar-profile-settings">
+
+        {/* The conditional render of avatar Profil */}    
+        {avatarProfil ? (    <a href="#" className="avatar-profile-settings">
                 <img src={avatarProfil} alt="User avatar" />
-            </a>
+            </a>) : null}
+        
 
             <div className='profile-settings-body'>
                 <p>

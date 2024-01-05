@@ -188,6 +188,10 @@ body{
     font-size: 1rem;
 }
 
+/* .tweet-actions:hover {
+    background-color: #1D9BF0;
+} */
+
 .tweet-actions svg {
     width: 1.5rem;
     height: auto;
@@ -240,7 +244,7 @@ body{
     flex-direction: column;
     font-family: 'Inter', sans-serif;
     margin: 0px 0px 0px 90px;
-    padding-bottom: 395px;
+    padding-bottom: 200px;
     
 }
 
@@ -475,6 +479,7 @@ body{
 }
 
 /* ======== Style of navigation button ========== */
+
 .navigation-button {
     background: none;
     border: none;
@@ -483,6 +488,7 @@ body{
 }
 
 /* ======== Style of navigation button ========== */
+
 .more-button {
     background: none;
     border: none;
