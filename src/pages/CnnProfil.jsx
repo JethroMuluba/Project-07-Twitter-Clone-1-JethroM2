@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderCnn from '../components/HeaderCnn';
 import UserProfilTweet from '../components/UserProfilTweet';
 import UserProfilDetails from '../components/UserProfilDetails';
+import Tweets from '../components/Tweets';
 
 
 export default function CnnProfil() {
@@ -28,6 +29,7 @@ export default function CnnProfil() {
 
       <UserProfilTweet/>
       <UserProfilDetails/>
+      <Tweets/>
 
       
         
