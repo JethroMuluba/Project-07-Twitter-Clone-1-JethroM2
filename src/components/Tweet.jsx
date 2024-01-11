@@ -9,14 +9,18 @@ import reactIcon from '../Icons/React.png';
 import reactIconColor from '../Icons/React-color.png';
 import shareIcon from '../Icons/Share.png';
 import shareIconColor from '../Icons/Share-color.png';
+import { NavLink } from 'react-router-dom';
 
 
 function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText, tweetImage, tweetActionReply ,tweetActionRetweet, tweetActionReact  }) {
     return(
         <div className="tweet">
-            <a href="#" className="tweet-avatar">
-                <img src={tweetAvatar} alt="User tweet avatar" />
-            </a>
+            <span href="#" className="tweet-avatar">
+                <NavLink to="/cnnprofil">
+                    <img src={tweetAvatar} alt="User tweet avatar"/>
+                </NavLink>
+            </span>
+            
             <div className='tweet-content'>
                 <div className='tweet-body'>
                     <p className='tweet-title'>
