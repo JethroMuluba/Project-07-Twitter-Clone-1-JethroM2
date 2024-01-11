@@ -29,11 +29,17 @@ body{
 
 
 .header {
-    padding: 1.5rem 1rem;
+    position: fixed;
+    width: 999px;
+    background-color: rgba(0, 0, 0, 0.500);
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+    padding: 1.5rem 1rem;
+    backdrop-filter: blur(8px);
+    z-index: 0;
 }
 
 .top-tweets {
@@ -54,6 +60,7 @@ body{
     justify-content: flex-start;
     gap: 20px;
     padding:  1rem 1rem;
+    margin-top: 110px;
     border-bottom: 1px solid #2F3336;
 }
 
@@ -504,15 +511,23 @@ body{
 
 /* ======== Style of header Cnn ========== */
 .headerCnn {
+    position: fixed;
+    width: 999px;
     display: flex;
     gap: 55px;
-    padding: 20px 0px 0px 20px;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-bottom: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+    padding: 20px 0px 20px 20px;
+    backdrop-filter: blur(8px);
+    z-index: 0;
+
 }
 
 /* ======== Style of User Profil Tweet ========== */
-.user-profil-tweet-container {
+/* .user-profil-tweet-container {
 position: relative;
-}
+} */
 
 /* ======== Style of User Profil Container ========== */
 .userProfilContainer {
@@ -529,6 +544,7 @@ position: relative;
 .user-cover {
     width: 100%;
     height: 100%;
+    margin-top: 110px;
 }
 
 /* ======== Style of User Profil Cnn ========== */
