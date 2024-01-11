@@ -1,9 +1,16 @@
+import { useNavigate } from 'react-router-dom';
+
+
 function NavigationsSidebar( {switchLinkIcon,linkName} ) {
+    const navigate = useNavigate();
+    const handleClick = (path) => {
+        navigate(path);
+    }
     return(
 
-    <div className="Links-conteiner">
+    <div className="Links-conteiner" onClick={() => handleClick("/")}>
 
-        <button className='navigation-button' >
+        <button className='navigation-button'>
             <img src= {switchLinkIcon}  alt="Link icon" />
         </button>
 
