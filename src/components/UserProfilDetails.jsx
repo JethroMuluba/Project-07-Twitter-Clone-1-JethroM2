@@ -6,6 +6,8 @@ export default function UserProfilDetails() {
   return (
     <div className='user-profil-details-container'>
 
+        <div className='user-profil-detail-view'>
+
         <div className='profile-settings-body'>
           <p>
             <span className='tweet-title-author-set'> <a href="#" className='my-own-link-style' > CNN <img src={iconVerified} alt="Icon Verified" /></a></span>
@@ -14,7 +16,11 @@ export default function UserProfilDetails() {
           <p>
             <span className='tweet-title-details-set'> @CNN </span>
           </p>
+
         </div>
+
+        </div>
+
 
         <p className='user-text-purpos'>
           It's our job to #GoThere & tell the most difficul stories. For breaking news, follow @CNNBRK and download our app cnn.com/apps

@@ -531,12 +531,12 @@ position: relative;
 
 /* ======== Style of User Profil Container ========== */
 .userProfilContainer {
-    
+    position: absolute;
+    top: 300px;
+    width: 950px;
     display: flex;
     justify-content: space-between;
     align-items: first baseline;
-    /* position: absolute;
-    top: 2950px; */
     margin: 0px 20px;
 }
 
@@ -551,11 +551,16 @@ position: relative;
 .userProfilCnn {
     width: 200px;
     height: 200px;
-    border-radius: 10px;
-    border-width: 10px;
+    border-radius: 20px;
+    border-width: 8px;
     border-style: solid;
     border-color: black;
     
+}
+
+.user-profil-detail-view{
+    margin-top: 90px;
+
 }
 
 /* ======== Style of User Profil Elements ========== */
