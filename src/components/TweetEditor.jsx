@@ -12,7 +12,7 @@ import jethroProfil from '../images/Jethro-Profil.png'
 
 function TweetEditor () {
     return(
-        <div className="tweet-editor">
+        <div className="flex items-start justify-start gap-[20px] p-[1rem] mt-[110px] border-b border-px border-[#2F3336]  ">
             <a href="#" className='avatar'>
                 <img src= {jethroProfil} alt="User profil Avatar"/>
             </a>
