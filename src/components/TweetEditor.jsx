@@ -13,11 +13,11 @@ import jethroProfil from '../images/Jethro-Profil.png'
 function TweetEditor () {
     return(
         <div className="flex items-start justify-start gap-[20px] p-[1rem] mt-[110px] border-b border-px border-[#2F3336]  ">
-            <a href="#" className='avatar'>
-                <img src= {jethroProfil} alt="User profil Avatar"/>
-            </a>
-            <div className='tweet-editor-form'>
-            <input type="text" placeholder=" What's happening? " className='tweet-editor-input'/>
+            <span className='flex-shrink-0 flex-grow-0 flex-basis-[70px]'>
+                <img className='max-w-full max-h-[100px] rounded-full' src= {jethroProfil} alt="User profil Avatar"/>
+            </span>
+            <div className='flex-auto'>
+            <input type="text" placeholder=" What's happening? " className='h-[60px] w-full border-none outline-none text-xl bg-black text-white resize-none pt-5 '/>
             <div className='tweet-editor-buttons'>
                 <article className='tweet-editor-actions'>
                     <button className='my-own-button'><img src= {iconAction1} alt="Icon Media" /></button>
