@@ -28,7 +28,7 @@ function TweetEditor () {
                 
             
                 </article>
-                <button type="button" className='button'>Tweet</button>
+                <button type="button" className='capitalize py-4 px-8 border-none rounded-[50px] bg-[#1D9BF0] text-white text-sm cursor-pointer'>Tweet</button>
             </div>
             </div>
 
