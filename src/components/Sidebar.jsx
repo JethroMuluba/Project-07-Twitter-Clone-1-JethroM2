@@ -84,7 +84,7 @@ function Sidebar() {
     // ]
 
     return(
-        <aside className="sidebar">
+        <aside className="flex-shrink-0 flex-grow-0 flex-basis-[400px] sticky top-0 h-full border-l-1 border-gray-700 pt-8 ">
             <div className="sidebar-conteiner">
             {linksData.map((link) => (
                 <NavigationsSidebar
