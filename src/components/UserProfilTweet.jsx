@@ -15,7 +15,7 @@ export default function UserProfilTweet() {
 
             <div className='userProfilButtonElements'>
 
-                <button className='my-own-button'>
+                <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'>
                     <img className='iconMore' src= {IconMore} alt="Icon more" />
                 </button>
 
