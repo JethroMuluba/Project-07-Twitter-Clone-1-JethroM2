@@ -22,7 +22,7 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
             </span>
             
             <div className='flex flex-col items-start justify-start gap-[30px] w-full'>
-                <div className='tweet-body'>
+                <div className='flex flex-col gap-4 '>
                     <p className='tweet-title'>
                         <span className='tweet-title-author'> <a href="#" className='my-own-link-style' >{titleAuthor} <img src={iconVerified} alt="Icon Verified" /></a></span>                     
                         <span className='tweet-title-details'> {titleDetailAbbr} </span>
