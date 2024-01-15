@@ -18,14 +18,14 @@ function TweetAction ( {iconAction, counterAction, swichIconAction} ) {
         }   
 
     return(
-        <div className="flex items-center justify-center gap-[20px]">
+        <div className="flex items-center justify-center gap-[20px] hover:text-[#1D9BF0]/25">
             <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]' onClick={handleClick}>
                 <img src= {switchIcon}  alt="Action icon" />
             </button>
 
         {/* Conditional render of tweet actions counter */}
             {counter ? (
-                <p> {counter} </p>
+                <p className=""> {counter} </p>
             ) : null
             }
 
