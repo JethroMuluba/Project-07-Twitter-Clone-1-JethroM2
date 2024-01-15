@@ -14,7 +14,7 @@ import { NavLink } from 'react-router-dom';
 
 function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDate, tweetText, tweetImage, tweetActionReply ,tweetActionRetweet, tweetActionReact  }) {
     return(
-        <div className="tweet">
+        <div className="flex justify-start items-start gap-[20px] py-6 px-4 border-b border-[#2F3336]">
             <span href="#" className="tweet-avatar">
                 <NavLink to="/cnnprofil">
                     <img src={tweetAvatar} alt="User tweet avatar"/>
