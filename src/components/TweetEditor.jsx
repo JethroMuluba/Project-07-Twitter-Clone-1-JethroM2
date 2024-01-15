@@ -18,7 +18,7 @@ function TweetEditor () {
             </span>
             <div className='flex-auto'>
             <input type="text" placeholder=" What's happening? " className='h-[60px] w-full border-none outline-none text-xl bg-black text-white resize-none pt-5 '/>
-            <div className='tweet-editor-buttons'>
+            <div className='flex items-center justify-between'>
                 <article className='tweet-editor-actions'>
                     <button className='my-own-button'><img src= {iconAction1} alt="Icon Media" /></button>
                     <button className='my-own-button'><img src= {iconAction2} alt="Icon Gif" /></button>
