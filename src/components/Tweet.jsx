@@ -23,21 +23,26 @@ function Tweet ({tweetAvatar, titleAuthor, titleDetailAbbr, titleDetailHourAndDa
             
             <div className='flex flex-col items-start justify-start gap-[30px] w-full'>
                 <div className='flex flex-col gap-4 '>
-                    <p className='tweet-title'>
-                        <span className='tweet-title-author'> <a href="#" className='my-own-link-style' >{titleAuthor} <img src={iconVerified} alt="Icon Verified" /></a></span>                     
-                        <span className='tweet-title-details'> {titleDetailAbbr} </span>
-                        <span className='tweet-title-details'> {titleDetailHourAndDate} </span>
+                    <p className='flex justify-start items-start gap-[10px] text-2xl'>
+                        <span className=' text-2xl'> 
+                            <span className='flex gap-[5px]' >
+                                {titleAuthor} 
+                                <img src={iconVerified} className='w-[30px] h-[30px] ' alt="Icon Verified" />
+                            </span>
+                        </span>                     
+                        <span className='text-[#6E767D] '> {titleDetailAbbr} </span>
+                        <span className='text-[#6E767D] '> {titleDetailHourAndDate} </span>
                     </p>
-                    <p className='tweet-text'> {tweetText} </p>
+                    <p className='text-2xl text-[#D9D9D9]'> {tweetText} </p>
 
                 </div>
                 {/* The conditional render of Tweet Image */}
                     {tweetImage ? (
-                        <a href="#" className='tweet-image'>
-                            <img src={tweetImage} alt="Tweet Image" />
-                        </a>
+                        <span href="#" className='w-full'>
+                            <img src={tweetImage} className='max-w-full h-auto rounded-[50px] border-[1px] border-[#2F3336]' alt="Tweet Image" />
+                        </span>
                     ) : null}
-                <div className='tweet-actions'>
+                <div className='flex justify-center items-center gap-20 text-grey text-base'>
                     <TweetAction iconAction={replyIcon} swichIconAction={replyIconColor} counterAction={tweetActionReply}/>
                     <TweetAction iconAction={retweetIcon} swichIconAction={retweetIconColor} counterAction={tweetActionRetweet}/>
                     <TweetAction iconAction={reactIcon} swichIconAction={reactIconColor} counterAction={tweetActionReact}/>

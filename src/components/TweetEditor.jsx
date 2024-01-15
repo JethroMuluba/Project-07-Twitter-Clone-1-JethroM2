@@ -25,11 +25,11 @@ function TweetEditor () {
             <div className='flex items-center justify-between'>
 
                 <article className='flex items-center justify-start gap-4 py-2 px-0.8'>
-                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction1} alt="Icon Media" /></button>
-                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction2} alt="Icon Gif" /></button>
-                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction3} alt="Icon Poll" /></button>
-                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction4} alt="Icon Emoji" /></button>
-                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction5} alt="Icon Schedule" /></button>
+                    <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction1} alt="Icon Media" /></button>
+                    <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction2} alt="Icon Gif" /></button>
+                    <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction3} alt="Icon Poll" /></button>
+                    <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction4} alt="Icon Emoji" /></button>
+                    <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction5} alt="Icon Schedule" /></button>
                 </article>
 
                 <button type="button" className='capitalize py-4 px-8 border-none rounded-[50px] bg-[#1D9BF0] text-white text-sm cursor-pointer'>Tweet</button>
