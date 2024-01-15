@@ -22,7 +22,12 @@ function TweetAction ( {iconAction, counterAction, swichIconAction} ) {
             <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]' onClick={handleClick}>
                 <img src= {switchIcon}  alt="Action icon" />
             </button>
-            <p> {counter} </p>
+
+        {/* Conditional render of tweet actions counter */}
+            {counter ? (
+                <p> {counter} </p>
+            ) : null
+            }
 
         </div>
         )
