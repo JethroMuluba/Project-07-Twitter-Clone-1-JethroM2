@@ -20,11 +20,11 @@ function TweetEditor () {
             <input type="text" placeholder=" What's happening? " className='h-[60px] w-full border-none outline-none text-xl bg-black text-white resize-none pt-5 '/>
             <div className='flex items-center justify-between'>
                 <article className='flex items-center justify-start gap-4 py-2 px-0.8'>
-                    <button className='my-own-button'><img src= {iconAction1} alt="Icon Media" /></button>
-                    <button className='my-own-button'><img src= {iconAction2} alt="Icon Gif" /></button>
-                    <button className='my-own-button'><img src= {iconAction3} alt="Icon Poll" /></button>
-                    <button className='my-own-button'><img src= {iconAction4} alt="Icon Emoji" /></button>
-                    <button className='my-own-button'><img src= {iconAction5} alt="Icon Schedule" /></button>
+                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction1} alt="Icon Media" /></button>
+                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction2} alt="Icon Gif" /></button>
+                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction3} alt="Icon Poll" /></button>
+                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction4} alt="Icon Emoji" /></button>
+                    <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'><img src= {iconAction5} alt="Icon Schedule" /></button>
                 
             
                 </article>
