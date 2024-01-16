@@ -85,7 +85,7 @@ function Sidebar() {
 
     return(
         <aside className="flex-shrink-0 flex-grow-0 flex-basis-[400px] sticky top-0 h-full border-l-1 border-gray-700 pt-8 ">
-            <div className="sidebar-conteiner">
+            <div className="flex flex-col font-Inter ml-[90px] pb-[165px] ">
             {linksData.map((link) => (
                 <NavigationsSidebar
                 key={link.id}
