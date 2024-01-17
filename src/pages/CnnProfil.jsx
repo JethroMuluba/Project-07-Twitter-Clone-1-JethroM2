@@ -29,7 +29,7 @@ export default function CnnProfil() {
 
       <UserProfilTweet/>
       <UserProfilDetails/>
-      <Tweets/>
+      
 
       
         

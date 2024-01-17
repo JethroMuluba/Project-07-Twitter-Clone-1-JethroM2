@@ -15,11 +15,11 @@ export default function UserProfilTweet() {
 
             <div className='userProfilButtonElements'>
 
-                <button className='bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'>
+                <button className='w-[70px] h-[30px]bg-none border-none ease-in-out cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'>
                     <img className='iconMore' src= {IconMore} alt="Icon more" />
                 </button>
 
-                <button className='follow-button'>
+                <button className='bg-[#ffffff] font-[Inter sans-serif] font-bold text-[#000000] border-none rounded-full px-[15px] my-[10px] cursor-pointer hover:bg-[#dedddd;] '>
                     Follow
                 </button>
 

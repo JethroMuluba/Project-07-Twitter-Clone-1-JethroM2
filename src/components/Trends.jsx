@@ -65,16 +65,16 @@ function Trends() {
 
 
     return (
-    <div className= 'trends'>
+    <div className= 'flex-shrink-0 flex-grow-0 flex-basis-[430px] flex flex-col sticky top-0 h-full  border-l-1 border-gray-700 pt-8 gap-[15px]'>
 
-        <div className='trends-search-bar-section'>
-            <input type="text" placeholder='search Twiiter' className='search-bar'/>
+        <div>
+            <input type="text" placeholder='search Twiiter' className='search-bar bg-[#474444] text-white text-capitalize bg-no-repeat bg-cover bg-center focus:outline-none text-1rem py-[1rem] pr-[8.7rem] pl-[3rem] border-transparent rounded-full' />
         </div>
 
-        <div className='trends-for-you-section'>
-            <div className='trends-for-you-title'>
+        <div className='bg-[#3a3838] rounded-[10px] font-[Inter sans-serif] mr-[30px] p-[10px] '>
+            <div className='flex justify-between text-[1.3rem] font-medium py-[10px] pl-[10px] '>
                 <p>Trends for you</p>
-                <button className='my-own-button'>
+                <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]'>
                     <img src= {SettingsIcon} alt="settings icon" />
                 </button>
             </div>
@@ -89,14 +89,14 @@ function Trends() {
             ))}
 
 
-            <p className='see-more'><a href="#" className='link-style'>See more</a></p>
+            <p className='text-[1.3rem] font-medium text-[#1D9BF0] py-[20px] pl-[10px] cursor-pointer hover:bg-[#484545] hover:rounded-b-[10px] '>See more</p>
 
 
         </div>
 
-        <div className='who-to-follow-section'>
+        <div className='bg-[#3a3838] rounded-[10px] font-[Inter sans-serif] mr-[30px] '>
 
-            <div className='trends-for-you-title'>
+            <div className='text-[1.3rem] font-medium py-[10px] pl-[10px]'>
                 <p>Who to follow</p>
             </div>
             
@@ -111,7 +111,8 @@ function Trends() {
                 />
             ))}
 
-            <p className='see-more'><a href="#" className='link-style'>See more</a></p>
+            <p className='text-[1.3rem] font-medium text-[#1D9BF0] py-[20px] pl-[10px] cursor-pointer hover:bg-[#484545] hover:rounded-b-[10px] '>See more</p>
+
 
         </div>
 

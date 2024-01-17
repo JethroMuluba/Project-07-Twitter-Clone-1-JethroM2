@@ -3,21 +3,21 @@ import moreIcon from "../Icons/More-3.png";
 
 function TrendsDetails( {trendTitle, trendAbbr, trendCounter} ) {
     return (
-        <a href="#" className='my-own-link-style'>
-                <div className='trendsDetails'>
+        <span>
+                <div className='flex flex-col gap-[4px] p-[10px] hover:bg-[#484545] '>
 
-                    <div className='trends-detail-title'>
+                    <div className='flex justify-between text-[#808080] font-medium '>
                         <p> {trendTitle}</p>
-                        <button className='more-button'>
+                        <button className='bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full pr-[10px]'>
                             <img src= {moreIcon} alt="more icon" />
                         </button>
                     </div>
 
-                    <p className='trends-detai-middle'> {trendAbbr}</p>
-                    <p  className='trends-detail-title'> {trendCounter}</p>
+                    <p className='text-[1.3rem] font-medium '> {trendAbbr}</p>
+                    <p  className='flex justify-between text-[#808080] font-medium'> {trendCounter}</p>
 
                 </div>
-        </a>
+        </span>
     )
 }
 export default TrendsDetails;
