@@ -8,7 +8,7 @@ function Header () {
 
 
     return(
-      <header className="fixed w-[999px] flex justify-between items-center bg-black/60 border-b border-r border-px border-[#2F3336] px-[20px] py-[30px] backdrop-blur z-50 ">
+      <header className="fixed w-[881px] flex justify-between items-center bg-black/60 border-b border-px border-[#2F3336] px-[20px] py-[30px] backdrop-blur z-50 ">
 
             <button className="bg-none border-none cursor-pointer hover:rounded-full p-[10px]" onClick={() => handleClick("/")}>
                 <h1 className="text-2xl font-bold " > <span>Home</span></h1>
