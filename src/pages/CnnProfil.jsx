@@ -17,7 +17,7 @@ export default function CnnProfil() {
 
   return (
 
-    <main className="timeline">
+    <main className="flex-basis-[1000px] text-[Inter, sans-serif] border-[1px] border-[#2F3336]">
 
       {userInfos.map((userInfo) => (
       <HeaderCnn

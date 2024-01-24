@@ -68,7 +68,7 @@ function Trends() {
     <div className= 'flex-shrink-0 flex-grow-0 flex-basis-[430px] flex flex-col sticky top-0 h-full  border-l-1 border-gray-700 pt-8 gap-[15px]'>
 
         <div>
-            <input type="text" placeholder='search Twiiter' className='search-bar bg-[#474444] text-white text-capitalize bg-no-repeat bg-cover bg-center focus:outline-none text-1rem py-[1rem] pr-[8.7rem] pl-[3rem] border-transparent rounded-full' />
+            <input type="text" placeholder='search Twiiter' className='search-bar bg-[#474444] text-white text-capitalize bg-no-repeat bg-cover bg-center focus:outline-none text-1rem py-[1rem] pr-[10.1rem] pl-[3rem] border-transparent rounded-full' />
         </div>
 
         <div className='bg-[#3a3838] rounded-[10px] font-[Inter sans-serif] mr-[30px] p-[10px] '>
