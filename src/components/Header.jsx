@@ -11,7 +11,7 @@ function Header () {
       <header className="fixed w-[881px] h-[30px] flex justify-between items-center bg-black/60 border-b border-px border-[#2F3336] px-[20px] py-[30px] backdrop-blur z-50 ">
 
             <button className="bg-none border-none cursor-pointer hover:rounded-full p-[10px]" onClick={() => handleClick("/")}>
-                <h1 className="text-2xl font-bold " > <span>Home</span></h1>
+                <h1 className="text-[30px] font-bold " >Home</h1>
             </button>
 
             <button className="bg-none border-none cursor-pointer hover:bg-[#1D9BF0]/25 hover:rounded-full p-[10px]">
