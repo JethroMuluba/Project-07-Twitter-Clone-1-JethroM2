@@ -4,7 +4,7 @@ import iconVerified from "../Icons/Verified.png";
 
 export default function UserProfilDetails() {
   return (
-    <div className='flex flex-col gap-[20px] mx-[20px] mt-[20px] '>
+    <div className='flex flex-col gap-[15px] mx-[20px] mt-[20px] '>
 
         <div className='mt-[90px]'>
 
@@ -53,6 +53,30 @@ export default function UserProfilDetails() {
             </p>
           </div>
 
+        </div>
+
+        <div className='flex gap-[30px] '>
+
+          <a href="#" className='hover:underline hover:decoration-[#fff]'>
+              <p> 
+                <span className='text-[20px] font-medium '>1,083</span>
+                <span className='text-[22px] text-[#6E767D]'> Following</span>
+              </p>
+          </a>
+
+          <a href="#" className='hover:underline hover:decoration-[#fff]'>
+              <p> 
+                <span className='text-[20px] font-medium '>62.1M </span>
+                <span className='text-[22px] text-[#6E767D]'>Followers</span>
+              </p>
+          </a>
+
+        </div>
+
+        <div>
+          <p  className='text-[18px] text-[#6E767D]'>
+            <a href="#" className='hover:underline hover:decoration-[#fff]'>Followed by 7SUR7.CD and Radio Okapi</a>
+          </p>
         </div>
 
     </div>
