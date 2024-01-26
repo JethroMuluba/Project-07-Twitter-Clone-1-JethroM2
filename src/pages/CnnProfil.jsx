@@ -3,6 +3,7 @@ import HeaderCnn from '../components/HeaderCnn';
 import UserProfilTweet from '../components/UserProfilTweet';
 import UserProfilDetails from '../components/UserProfilDetails';
 import Tweets from '../components/Tweets';
+import TimelineNav from '../components/TimelineNav';
 
 
 export default function CnnProfil() {
@@ -29,6 +30,7 @@ export default function CnnProfil() {
 
       <UserProfilTweet/>
       <UserProfilDetails/>
+      <TimelineNav/>
       
 
       
