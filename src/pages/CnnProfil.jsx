@@ -13,7 +13,7 @@ export default function CnnProfil() {
     { 
       id: 1,
       name: "CNN",
-      postCounter: "420,7 k posts"
+      postCounter: "1 post"
     }
   ];
 
@@ -30,6 +30,20 @@ export default function CnnProfil() {
       tweetActionRetweet: 144,
       tweetActionReact: 184,
   },
+  ];
+
+  const profilDetails = [
+    {
+      id: 1,
+      userName: "CNN",
+      userAbbr: "@CNN",
+      userPurpose: "",
+      userLink: "cnn.com",
+      yearTojoinTweeter: "Join Tweeter on febuary 2007",
+      followingNumber: 1.083,
+      followersNumber: 62.1 + "M",
+      followersBy: "Followed by 7SUR7.CD and Radio Okapi",
+    }
   ]
 
   return (
@@ -45,8 +59,21 @@ export default function CnnProfil() {
       ))}
 
       <UserProfilTweet/>
+      {/* <UserProfilDetails/> */}
 
-      <UserProfilDetails/>
+      {profilDetails.map((userDetail) => (
+      <UserProfilDetails
+          key={userDetail.id}
+          userName={userDetail.userName}
+          userAbbr={userDetail.userAbbr}
+          userPurpose={userDetail.userPurpose}
+          userLink={userDetail.userLink}
+          yearTojoinTweeter={userDetail.yearTojoinTweeter}
+          followingNumber={userDetail.followingNumber}
+          followersNumber={userDetail.followersNumber}
+          followersBy={userDetail.followersBy}
+      />
+      ))}
 
       <TimelineNav/>
 

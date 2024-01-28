@@ -2,7 +2,7 @@ import React from 'react'
 import iconVerified from "../Icons/Verified.png";
 
 
-export default function UserProfilDetails() {
+export default function UserProfilDetails({userName, userAbbr,userPurpose,  userLink, yearTojoinTweeter, followingNumber, followersNumber, followersBy}) {
   return (
     <div className='flex flex-col gap-[15px] mx-[20px] mt-[20px] '>
 
@@ -13,7 +13,7 @@ export default function UserProfilDetails() {
                 <span> 
                     <span className='flex place-items-center gap-[2px]'>
                         <span  className="text-[30px] font-bold " >
-                            CNN
+                            {userName}
                         </span>
                         <img src={iconVerified} alt="Icon Verified" className='w-[30px] h-[30px]  '/>
                     </span>
@@ -21,7 +21,7 @@ export default function UserProfilDetails() {
             </p>
 
             <p>
-              <span className='text-[1.2rem] font-[50px] text-[#6E767D] '> @CNN </span>
+              <span className='text-[1.2rem] font-[50px] text-[#6E767D] '> {userAbbr} </span>
             </p>
 
         </div>
@@ -30,7 +30,7 @@ export default function UserProfilDetails() {
 
 
         <p className='text-[22px] '>
-          It's our job to <a href='#'className='hover:underline hover:decoration-[#1D9BF0]'> <span className='text-[#1D9BF0] '>#GoThere</span></a> & tell the most difficul stories. For breaking news, follow  <a href='#' className='hover:underline hover:decoration-[#1D9BF0]'> <span className='text-[#1D9BF0] '>@CNNBRK</span></a> and download our app <a href='#'className='hover:underline hover:decoration-[#1D9BF0]'> <span className='text-[#1D9BF0] '>cnn.com/apps</span></a> 
+          {userPurpose}It's our job to <a href='#'className='hover:underline hover:decoration-[#1D9BF0]'> <span className='text-[#1D9BF0] '>#GoThere</span></a> & tell the most difficul stories. For breaking news, follow  <a href='#' className='hover:underline hover:decoration-[#1D9BF0]'> <span className='text-[#1D9BF0] '>@CNNBRK</span></a> and download our app <a href='#'className='hover:underline hover:decoration-[#1D9BF0]'> <span className='text-[#1D9BF0] '>cnn.com/apps</span></a>
         </p>
 
         <div className='flex gap-[20px] '>
@@ -40,7 +40,7 @@ export default function UserProfilDetails() {
             <p className='text-[22px] '>
               <a href='#' className='hover:underline hover:decoration-[#1D9BF0]'> 
                 <span className='text-[#1D9BF0] '>
-                  cnn.com
+                  {userLink}
                 </span>
               </a>
             </p>
@@ -49,7 +49,7 @@ export default function UserProfilDetails() {
           <div className='flex gap-[10px] '>
           <svg xmlns="http://www.w3.org/2000/svg" className='w-[25px] h-[25px] mb-[4px] mt-[5px] cursor-pointer' width="1em" height="1em" viewBox="0 0 24 24"><path fill="gray" d="M12 14a1 1 0 1 0-1-1a1 1 0 0 0 1 1m5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1m-5 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1m5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1M7 14a1 1 0 1 0-1-1a1 1 0 0 0 1 1M19 4h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3m1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V7a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1ZM7 18a1 1 0 1 0-1-1a1 1 0 0 0 1 1"></path></svg>
             <p className='text-[22px] text-[#6E767D]'>
-              Join Tweeter on febuary 2007
+              {yearTojoinTweeter}
             </p>
           </div>
 
@@ -59,14 +59,14 @@ export default function UserProfilDetails() {
 
           <a href="#" className='hover:underline hover:decoration-[#fff]'>
               <p> 
-                <span className='text-[20px] font-medium '>1,083</span>
+                <span className='text-[20px] font-medium '> {followingNumber} </span>
                 <span className='text-[22px] text-[#6E767D]'> Following</span>
               </p>
           </a>
 
           <a href="#" className='hover:underline hover:decoration-[#fff]'>
               <p> 
-                <span className='text-[20px] font-medium '>62.1M </span>
+                <span className='text-[20px] font-medium '> {followersNumber} </span>
                 <span className='text-[22px] text-[#6E767D]'>Followers</span>
               </p>
           </a>
@@ -75,7 +75,7 @@ export default function UserProfilDetails() {
 
         <div>
           <p  className='text-[18px] text-[#6E767D]'>
-            <a href="#" className='hover:underline hover:decoration-[#fff]'>Followed by 7SUR7.CD and Radio Okapi</a>
+            <a href="#" className='hover:underline hover:decoration-[#fff]'>{followersBy}</a>
           </p>
         </div>
 
